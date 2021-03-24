@@ -107,10 +107,10 @@ async function getTime() {
     console.log(hour);
 
     if(hour >= 06 && hour <= 18) {
-        bg = "sprites/bg2.jpg";
+        bg = "sprites/bg.png";
     }
     else {
-        bg = "sprites/bg.png";
+        bg = "sprites/bg2.jpg";
     }
     backgroundImg = loadImage(bg);
 
